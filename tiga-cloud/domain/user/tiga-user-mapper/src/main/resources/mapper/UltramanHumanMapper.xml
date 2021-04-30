@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.goose.user.mapper.UltramanHumanMapper">
+    <resultMap id="BaseResultMap" type="com.goose.user.pojo.UltramanHuman" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="hm_name" property="hmName" jdbcType="VARCHAR" />
+        <result column="cn_name" property="cnName" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="INTEGER" />
+        <result column="gender" property="gender" jdbcType="INTEGER" />
+        <result column="extra" property="extra" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+</mapper>
